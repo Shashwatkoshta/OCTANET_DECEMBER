@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar
+{
+    display: flex;
+    background-color: rgb(159, 148, 148);
+    position: fixed;
+    width: 80rem;
+}
+#navcontent
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+#login{
+    border-radius: 1rem;
+    margin-left: 25rem;
+    width: 4rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+#login:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+#signup{
+    border-radius: 1rem;
+    margin-left: 2rem;
+    width: 4rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+#signup:hover{
+    cursor: pointer;
+    background-color: azure;
+}  
+.welcome
+{
+    background-image:url(bg1.png);
+    height: 45rem;
+}
+#mainheading
+{
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 5rem;
+}
+
+#mainpara
+{
+    color: white;
+    text-align: center;
+     padding-top: .5rem;font-size: 2rem;
+}
+#ordernow
+{
+    background-color: black;
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    margin-left: 35rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#services
+{
+    margin-left: 33rem;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+}
+.service
+{
+    display: flex;
+    margin-top: 2rem;
+}
+
+#foodcatering
+{
+    margin-left: 5rem;
+    border: .2rem;
+    border-color: brown;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 2rem;
+    overflow-x:hidden;
+    overflow-y: auto;
+    background-color: beige;
+}
+
+#bulkordering
+{
+    margin-left: 5rem;
+    border: .2rem;
+    border-color: brown;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 2rem;
+    overflow-x:hidden;
+    overflow-y: auto;
+    background-color: beige;
+}
+
+#foodordering
+{
+    margin-left: 5rem;
+    border: .2rem;
+    border-color: brown;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 2rem;
+    overflow-x:hidden;
+    overflow-y: auto;
+    background-color: beige;
+}
+
+#imgfoodcatering
+{
+    height: 10rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    width: 13rem;
+    
+}
+
+#headingfoodcatering
+{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+#parafoodcatering
+{
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+     text-align:center;
+}
+#ourclients
+{
+    background-image: url(ourclientsimg.jpg);
+    margin-top: 3rem;
+    height: 30rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#ourclients h1{
+    /* margin-left: 30rem; */
+    text-align: center;
+     font-size: 4rem;
+      font-weight: bold;
+      padding-top: 3rem;
+}
+
+#ourclientsimg
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.ourclientslogo{
+    height: 5rem;
+
+    margin-top: 3rem;
+    
+}
+#contactus
+{
+    background-image: url(contact.png);
+    height: 40rem;
+    
+}
+
+
+
